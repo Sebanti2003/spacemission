@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Control Panel for Speed Adjustment */
+.control-panel {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 10;
+}
+
+input[type="range"] {
+  width: 200px;
+}

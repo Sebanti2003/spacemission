@@ -203,5 +203,5 @@ function onWindowResize() {
 
 // Call init and animate functions
 init();
-animate(1);
+animate();
 setSkyBox();
